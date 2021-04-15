@@ -1,0 +1,37 @@
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        app:key="@string/current_action_level"
+        app:title="@string/current_action_level"/>
+
+    <CheckBoxPreference
+        app:key="@string/current_action_level"
+        app:title="@string/contaminated"/>
+
+    <CheckBoxPreference
+        app:key="@string/current_action_level"
+        app:title="@string/substituted"/>
+
+    <CheckBoxPreference
+        app:key="@string/current_action_level"
+        app:title="@string/diluted"/>
+
+    <CheckBoxPreference
+        app:key="@string/current_action_level"
+        app:title="@string/mislabelling"/>
+
+    <CheckBoxPreference
+        app:key="@string/current_action_level"
+        app:title="@string/good_no_tampering"/>
+
+    <CheckBoxPreference
+        app:key="@string/current_action_level"
+        app:title="@string/best"/>
+
+    <Preference
+        app:key="feedback"
+        app:title="Send feedback"
+        app:summary="Report technical issues or suggest new features"/>
+
+</PreferenceScreen>
